@@ -1,0 +1,30 @@
+{
+    "InputFile": "Sample CPF.xlsx",
+    "OutputFile": "Output Sample CPF.xlsx",
+    "OutputSheetName": "Data",
+    "SheetRecords": [
+        {
+            "KeyIndex": 1,
+            "SheetName": "Dados Basicos",
+            "MaxMatchs": 1,
+            "ContainsHeader": true,
+            "ColumnsDelimiter": "\t",
+            "LinesDelimiter": "\t",
+            "ColumnIndexes": [
+                2,
+                7
+            ]
+        },
+        {
+            "KeyIndex": 1,
+            "SheetName": "Emails",
+            "MaxMatchs": 5,
+            "ContainsHeader": true,
+            "ColumnsDelimiter": "\t",
+            "LinesDelimiter": "\t",
+            "ColumnIndexes": [
+                2
+            ]
+        }
+    ]
+}
